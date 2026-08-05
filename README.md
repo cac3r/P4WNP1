@@ -1,6 +1,6 @@
 ## P4WNP1 A.L.O.A
 
-P4WNP1 A.L.O.A is a physical access framework created for the Raspery Pi zero W. A common use is simulating a keyboard device to run HID scripts when its plugged in to a target machine. Similar concept of Bad-USB, rubber ducky, ... but way cheaper.
+[P4WNP1 A.L.O.A](https://github.com/RoganDawes/P4wnP1_aloa) is a physical access framework created for the Raspberry Pi zero W. A common use is simulating a keyboard device to run HID scripts when its plugged in to a target machine. Similar concept of Bad-USB, rubber ducky, ... but way cheaper.
 
 This repo `P4WNP1` contains the basic setup and some ready to use payloads, as well as a demonstration on how it looks like and how much time it takes to run on a specific context.
 
@@ -13,4 +13,4 @@ This repo `P4WNP1` contains the basic setup and some ready to use payloads, as w
 
 ### ACKNOWLEGEMENT
 
-- The JS scripts in this repo were made using chriskalv's "AllinOne_extraction.js" (https://github.com/chriskalv/p4wnp1_payloads/blob/main/AllinOne_extraction.js) as a base. Most of the logic is reused.
+- The JS scripts in this repo were made using chriskalv's ["AllinOne_extraction.js"](https://github.com/chriskalv/p4wnp1_payloads/blob/main/AllinOne_extraction.js) as a base. Most of the logic is reused.

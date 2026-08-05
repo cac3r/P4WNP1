@@ -1,3 +1,4 @@
+## "Bad External SSD"
 
 I've seen some clever builds for this type of Bad-USB device with the Pi zero. One that I find interesting is hiding it inside a mouse. If you match the model that the target company uses it could go unnoticed while plugged. 
 
@@ -11,7 +12,7 @@ But the idea I had from the beginning was making it a "Bad External SSD", so I b
 - Raspberry Pi zero W
 - Raspberry Pi zero "case"
 
-![[5347.jpg]]
+![](../assets/images/5347.jpg)
 
 Ended up not using the Pi case (2 blue pieces and screws/knobs...)
 
@@ -20,21 +21,21 @@ Ended up not using the Pi case (2 blue pieces and screws/knobs...)
 
 I simply stick the Pi to the base of the SSD case with some adhesive paste. Connect the short flexible cable to the PI DATA port and align it with the USB-C hole on the SSD case with a good amount of adhesive paste, so plugging the USB cable from the outside doesnt lose the short cable and also gives it a bit more weight so it doesnt feel off when holding it.
 
-![[5348.jpg]]
+![](../assets/images/5348.jpg)
 
 Make sure its well aligned and the cable can be fully connected.
 
-![[5349 2.jpg]]
+![](../assets/images/5349.jpg)
 
 Place the lid on top and thats pretty much it.
 
-![[5350.jpg]]
+![](../assets/images/5350.jpg)
 
 
 ### PROS
 
 1. Disguised. People know this type of devices. Its just a external storage.
-2. Misterious, USB Drop potential. Imagine you (hypotetically someone that is not aware of the existence of such malicious devices) find this on your office/home desktop table. You recognize is a storage device. You have a computer available. Would you not plug it to see whats inside?
+2. Mysterious, USB Drop potential. Imagine you (hypothetically someone that is not aware of the existence of such malicious devices) find this on your office/home desktop table. You recognize is a storage device. You have a computer available. Would you not plug it to see whats inside?
 3. Cheap, very easy to make. The case and cables cost ~ 5 EUR. Can be assembled in few minutes.
 4. Covered. Somewhat prevents dust and water. 
 
@@ -47,4 +48,4 @@ Place the lid on top and thats pretty much it.
 
 ### Conclusion
 
-This device appareance can be used in favor for a USB drop attack, whether it works or its detected depends on the context and environment. Can be also used normally, controlled by the attacker, quick plug and go, but for that specific task where being disguised is almost trivial, a standalone Pi zero W or a USB STICK build is a better choice.
+This device appearance can be used in favor for a USB drop attack, whether it works or its detected depends on the context and environment. Can be also used normally, controlled by the attacker, quick plug and go, but for that specific task where being disguised is almost trivial, a standalone Pi zero W or a USB STICK build is a better choice.

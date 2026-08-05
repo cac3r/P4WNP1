@@ -1,3 +1,4 @@
+## Data Extraction Demo
 
 Extraction of:
 
@@ -26,22 +27,28 @@ Device configuration:
 2. Connect via wifi
 3. Access the Web UI
 
-USB SETTINGS
-![[USB_CONFIG.png|292]]
+---
+
+#### USB SETTINGS
 
 1. Enable:
+
 	- Keyboard
 	- Mouse
 	- Mass Storage
-2. Click on Mass Storage `...` button:
-![[mass_store_bin.png|343]]
+
+![](../assets/images/USB_CONFIG.png)
+
+3. Click on Mass Storage `...` button:
+
+![](../assets/images/mass_store_bin.png)
 - Select default `test.bin`
 
 3. STORE (as `def_mass_storage`)
 
+---
 
-
-HIDSCRIPT
+#### HIDSCRIPT
 
 1. Paste `all_in_one.js` 
 2. Edit the script GLOBAL SETTINGS:
@@ -60,10 +67,11 @@ HIDSCRIPT
 	- extract_local_recon_data=true  (Just local, no domain)
 3. STORE (as `all_in_one(lr-sd-uf-2pisd).js`) (lr=local recon, sd=sam dump, uf=user files, 2pisd= To Pi microSD)
 
+---
 
-TRIGGER ACTIONS
+#### TRIGGER ACTIONS
 
-1.  + ADD ONE
+1.  `+ ADD ONE`
 	- Enabled
 	- One Shot  (not permanent, just one time execution)
 	- Trigger = Service Started (on boot)
@@ -72,10 +80,11 @@ TRIGGER ACTIONS
 	- UPDATE
 2. STORE (as `onboot_all_in_one(lr-sd-uf-2pisd)`)
 
-![[TRIGGER_ACTIONS.png]]
+![](../assets/images/TRIGGER_ACTIONS.png)
 
+---
 
-GENERIC SETTINGS
+#### GENERIC SETTINGS
 
 1. TriggerActions Template = `onboot_all_in_one(lr-sd-uf-2pisd)`
 2. USB Template = `def_mass_storage`
@@ -84,18 +93,20 @@ GENERIC SETTINGS
 5. Startup Master Template = `onboot_all_in_one(lr-sd-uf-2pisd)_MT`
 6. DEPLOY (Optional to make sure the MT is loaded)
 
-![[MT_SETTINGS.png]]
+![](../assets/images/MT_SETTINGS.png)
 
 Device is Ready
 
 GENERIC SETTINGS > System > SHUTDOWN
 
+---
 
 ### Demo
 
 Plugging the Pi USB in (Connected to DATA port) to the target computer and waiting for the script to finish. I set a timer to see how "slow" it is without a battery. The device has to boot, open the flashdrive and run the script.
 
-![[USB_ATTCK_DEMO.mp4]]
+[WATCH VIDEO DEMO](../assets/videos/USB_ATTCK_DEMO.mp4)
+
 - *(**Screen goes black** when the window pops up asking whether you are sure to run PS as administrator. Its just a OBS / recording minor fault)*
 - *(Showing the terminal on purpose for demo. On a real scenario the `hide` parameter would be set to true to hide the window)*
 
@@ -103,7 +114,7 @@ It takes around 1 minute from plug to finish.
 
 In this demo I ejected the mounted flashdrive (README) to make it clean. On realistic scenarios this is probably not the case. When doing straight unplugging tests sometimes the data comes out broken, leaving SAM and other files unusable. User files and recon data is also broken but txt files can be reconstructed without much effort.
 
----
+
 
 Now to read the data back on the attacker system:
 
@@ -115,7 +126,7 @@ Set benign Master Template to read:
 - STORE (as `read_pisd_MT`)
 - LOAD it
 
-![[read_pisd_mt.png]]
+![](../assets/images/read_pisd_mt.png)
 
 Now connect the Pi to the attacker computer via data port and deploy it.
 Mount the README drive
@@ -125,7 +136,7 @@ List content
 tree '/media/xvn/README/loot_(02-08-2026_10-41)'
 ```
 
-![[loot_tree.png|374]]
+![](../assets/images/loot_tree.png)
 
 Loot:
 - `TCP_IP_Illustrated.pdf`, `stm.txt`, `w.txt`, `piW.pdf`  ->  User Files
@@ -137,12 +148,12 @@ Local recon output files examples:
 
 `local_ports.txt`
 
-![[local_ports.png]]
+![](../assets/images/local_ports.png)
 
 
 `local_whoami.txt`
 
-![[local_whoami.png]]
+![](../assets/images/local_whoami.png)
 
 All commands executed and saved the output correctly. 
 

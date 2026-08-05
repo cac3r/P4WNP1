@@ -12,7 +12,8 @@
 - P4WNP1 A.L.O.A image
 - RPI imager (or similar) to flash the image to microSD
 
-----
+
+
 ## Setup
 
 ### Flash the image 
@@ -37,7 +38,7 @@
 8. Base system is complete
 
 
----
+
 ## Configuration
 
 ### Automatic HID script execution on boot example

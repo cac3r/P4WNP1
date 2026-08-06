@@ -129,8 +129,8 @@ Set benign Master Template to read:
 ![](../assets/images/read_pisd_mt.png)
 
 Now connect the Pi to the attacker computer via data port and deploy it.
-Mount the README drive
-List content
+Mount the README drive. 
+List content:
 
 ```
 tree '/media/xvn/README/loot_(02-08-2026_10-41)'

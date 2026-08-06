@@ -17,7 +17,7 @@ Using:
 
 Target:
 
-- Real Windows 10 machine with dafault and standard security configuration (Controlled, authorized)
+- Real Windows 10 machine with default and standard security configuration (Controlled, authorized)
 
 ### Settings
 

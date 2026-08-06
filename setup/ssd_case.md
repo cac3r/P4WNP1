@@ -48,4 +48,8 @@ Place the lid on top and thats pretty much it.
 
 ### Conclusion
 
-This device appearance can be used in favor for a USB drop attack, whether it works or its detected depends on the context and environment. Can be also used normally, controlled by the attacker, quick plug and go, but for that specific task where being disguised is almost trivial, a standalone Pi zero W or a USB STICK build is a better choice.
+This device appearance can be used in favor for a USB drop attack, whether it works or its detected depends on the context and environment. Can be also used normally, controlled by the attacker, quick plug and go, but for that specific task where being disguised is almost trivial, a standalone Pi zero W or a USB stick as the image below build is a better choice.
+
+*(Fast build with what I had. Plastic enclosure and adhesive paste to hold the USB-A end to the Pi firmly enough, a shorter cable is better, make sure is data capable. You can also get a USB adapter for the Pi for the clean build)*
+
+![](../assets/images/IMG_20260806_163913_869.jpg)

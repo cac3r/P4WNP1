@@ -8,7 +8,7 @@ This repo `P4WNP1` contains the basic setup and some ready to use payloads, as w
 
 - `demo/` contains a demonstration on running a HID script for data extraction out of a windows 10 machine.
 - `hid_scripts/` contains some JS scripts ready to load to the P4WNP1 and use.
-- `setup/` contains basic setupand configuration of the P4WNP1 , as well as a build to disguise the device.
+- `setup/` contains basic setup and configuration of the P4WNP1 , as well as a build to disguise the device.
 - `assets/` Ignore, just contains media files.
 
 ### ACKNOWLEGEMENT

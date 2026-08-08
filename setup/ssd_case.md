@@ -35,7 +35,7 @@ Place the lid on top and thats pretty much it.
 ### PROS
 
 1. Disguised. People know this type of devices. Its just a external storage.
-2. Mysterious, USB Drop potential. Imagine you (hypothetically someone that is not aware of the existence of such malicious devices) find this on your office/home desktop table. You recognize is a storage device. You have a computer available. Would you not plug it to see whats inside?
+2. Intriguing, USB Drop potential. Imagine you (hypothetically someone that is not aware of the existence of such malicious devices) find this on your office/home desktop table. You recognize is a storage device. You have a computer available. Would you not plug it to see whats inside?
 3. Cheap, very easy to make. The case and cables cost ~ 5 EUR. Can be assembled in few minutes.
 4. Covered. Somewhat prevents dust and water. 
 

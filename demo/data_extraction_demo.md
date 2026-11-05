@@ -157,4 +157,4 @@ Local recon output files examples:
 
 All commands executed and saved the output correctly. 
 
-The SAM, Security and System files can be used to potentially dump local hashes with `secretsdump.py` from impacket. In my case I could only retrieve DPAPI keys.
+The SAM, Security and System files can be used to potentially dump local account passwords hashes with `secretsdump.py` from impacket.
